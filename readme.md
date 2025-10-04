@@ -1,7 +1,9 @@
 # Recruiter App
 
 ### CONCEITOS ###
-Este projeto apoia times de recrutamento ao combinar OCR e modelos de linguagem para analisar currículos em PDF ou imagem e responder perguntas específicas sobre os candidatos. O usuário envia um lote de arquivos, informa `request_id`, `user_id` e opcionalmente um $PROMPT — por exemplo:
+- Este projeto consiste em uma plataforma para auxiliar na busca dos melhores candidatos para uma oportunidade, baseado em perfil comportamental, técnico e experiência de trabalho através de um prompt simples descrevendo a vaga e requisitos desejados.
+- Com esta solução, o seu time de recrutamento otimiza tempo de análise de perfil dos candidatos, obtendo as resspostas mais adequadas de acordo com oa requisitos solicitados.
+ $PROMPT — por exemplo:
 
 ```
 $PROMPT: Qual desses currículos se enquadra melhor para a vaga de Tech Lead com os requisitos: [...]
