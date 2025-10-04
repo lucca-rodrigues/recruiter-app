@@ -2,7 +2,7 @@
 
 ### CONCEITOS ###
 - Este projeto consiste em uma plataforma para auxiliar na busca dos melhores candidatos para uma oportunidade, baseado em perfil comportamental, técnico e experiência de trabalho através de um prompt simples descrevendo a vaga e requisitos desejados.
-- Com esta solução, o seu time de recrutamento otimiza tempo de análise de perfil dos candidatos, obtendo as respostas mais adequadas de acordo com oa requisitos solicitados.
+- Com esta solução, o seu time de recrutamento otimiza tempo de análise de perfil dos candidatos, obtendo as respostas mais adequadas de acordo com os requisitos solicitados.
  $PROMPT — por exemplo:
 
 ```
