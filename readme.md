@@ -19,7 +19,7 @@ Quando há pergunta, o sistema retorna apenas os candidatos aderentes com suas j
 ### COMO EXECUTAR O PROJETO ###
 1. Pré-requisitos: Docker e Docker Compose (plugin `docker compose`).
 2. Clone o repositório e acesse a pasta do projeto.
-3. Crie um `.env` a partir de `.env.example` e preencha as credenciais do LLM (ex.: Groq, OpenAI, OpenRouter).
+3. Copie o arquivo `.env.example` para `.env` e preencha ao menos `LLM_PROVIDER` e `LLM_API_KEY`. Nos testes utilizamos **Groq** (`LLM_PROVIDER=groq`), mas também é possível usar OpenAI, OpenRouter, DeepSeek ou qualquer provedor compatível suportado pelo utilitário (`src/utils/llm_settings.py`).
 4. Suba os serviços:
    ```sh
    docker compose up --build
