@@ -1,0 +1,19 @@
+PROMPT:
+Qual desses currículos se enquadra melhor para a vaga de Tech Lead com os requisitos:
+Atividades
+
+Liderar o time de IA na criação, manutenção e evolução de soluções baseadas em inteligência artificial, com foco em produtos de Open Finance.
+Projetar e implementar arquiteturas robustas com LLMs, especialmente voltadas para uso com ChatGPT, GPT-4/4°.
+Implementar agentes autônomos e fluxos de RAG (Retrieval-Augmented Generation) conectando bases vetoriais, APIs e dados internos.
+Garantir boas práticas de engenharia e MLOps (CI/CD para modelos, monitoramento e retraining).
+Trabalhar em sinergia com Produto, Engenharia, Dados e Compliance.
+Mentorar o time, apoiando tecnicamente e promovendo uma cultura de excelência e aprendizado contínuo.
+Testar e avaliar diferentes abordagens de IA generativa para criar interfaces mais inteligentes e responsivas para clientes.
+
+Requisitos e qualificações
+Experiência prática com modelos baseados em ChatGPT (OpenAI) e outras arquiteturas de LLMs (como Claude, Falcon, LLaMA, Mistral).
+Domínio em Python, PyTorch ou TensorFlow, APIs da OpenAI, LangChain e frameworks de RAG.
+Conhecimento em processamento de linguagem natural (NLP) e embeddings vetoriais (Pinecone, FAISS, etc).
+Experiência com MLOps: versionamento de modelos (MLflow, DVC), Docker, Kubernetes e deploy em nuvem (AWS, GCP ou Azure).
+Vivência em ambientes ágeis e com cultura DevOps.
+Experiência com projetos de IA em contextos reais de negócio, preferencialmente no mercado financeiro.

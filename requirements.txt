@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+gunicorn
+pytesseract
+pdf2image
+pillow
+pymongo
+python-multipart
+openai
+python-dotenv
+streamlit

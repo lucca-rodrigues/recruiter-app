@@ -1,0 +1,40 @@
+services:
+  api:
+    build: .
+    image: recruiter-app:latest
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+
+  streamlit:
+    build: .
+    image: recruiter-app:latest
+    command:
+      ["bash", "-lc", "echo 'Streamlit UI available at http://localhost:8501' && streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 8501"]
+    env_file:
+      - .env
+    ports:
+      - "8501:8501"
+    depends_on:
+      mongodb:
+        condition: service_healthy
+
+  mongodb:
+    image: mongo:7.0
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.runCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mongo-data:
