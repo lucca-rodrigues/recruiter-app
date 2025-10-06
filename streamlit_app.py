@@ -25,7 +25,7 @@ with st.form("pipeline_form"):
     with col1:
         request_id = st.text_input("request_id", value=str(uuid.uuid4()))
     with col2:
-        user_id = st.text_input("user_id", value="fabio")
+        user_id = st.text_input("user_id", value=str(uuid.uuid4()))
 
     query = st.text_area(
         "Pergunta (opcional)",
